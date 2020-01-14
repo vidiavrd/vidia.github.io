@@ -1,0 +1,25 @@
+{
+  "name": "birthday",
+  "version": "1.0.0",
+  "description": "Birthday greetings..",
+  "main": " ",
+  "scripts": {
+    "server-node": "http-server -p 8081"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidiavrd/birthday.git"
+  },
+  "keywords": [
+    "Birthday"
+  ],
+  "author": "vidia",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/vidiavrd/birthday/issues"
+  },
+  "homepage": "https://github.com/vidiavrd/birthday#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
