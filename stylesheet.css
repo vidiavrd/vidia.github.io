@@ -1077,13 +1077,14 @@ audio {
 
 .balloons {
 	position: fixed;
-	bottom: -200px;
+	margin: auto;
+	/*bottom: -200px;*/
 	opacity: 0.6;
-	z-index: 99;
+	/*z-index: 99;
 	width: 100px;
-	height: 183px;
+	height: 183px;*/
 	background-repeat: no-repeat no-repeat;
-	background-size: 100px 183px;
+	/*background-size: 100px 183px;*/
 }
 .balloons h2 {
 	text-transform: uppercase;
@@ -1251,7 +1252,7 @@ audio {
 
 .balloon-border{
 	position: fixed;
-	top:100%;
+	top:50%;
 	opacity: 0.5;
 	z-index: 9999;
 }
