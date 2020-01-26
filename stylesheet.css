@@ -1087,6 +1087,7 @@ audio {
 	background-size: 50px 50px;
 }
 .balloons h2 {
+	max-width: 100%;
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
 	font-size: 20px;
