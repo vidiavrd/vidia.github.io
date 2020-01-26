@@ -165,7 +165,6 @@ $('document').ready(function(){
 	});
 	
 	$('#story').click(function(){
-		vw = $(window).width()/2;
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
 			$('.message').fadeIn('slow');
@@ -178,7 +177,7 @@ $('document').ready(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			if(i==50){
-				$("p:nth-child(45)").animate({top:500, left: vw}, 500).promise().done(function () {
+				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 				});
 				
