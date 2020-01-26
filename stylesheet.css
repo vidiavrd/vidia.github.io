@@ -1079,9 +1079,9 @@ audio {
 	position: fixed;
 	bottom: -200px;
 	opacity: 0.6;
-	/*z-index: 99;
+	z-index: 99;
 	width: 100px;
-	height: 183px;*/
+	height: 183px;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
 }
