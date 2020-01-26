@@ -179,6 +179,7 @@ $('document').ready(function(){
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+					$("p:nth-child(49)").fadeIn('slow').delay(1000).animate({top:500},500);
 				});
 				
 			}
